@@ -9,7 +9,7 @@ from app.auth import hash_password, verify_password
 router = APIRouter(
     prefix="/users",
     tags=["Users"]
-)
+) 
 
 # Dependency
 def get_db():
